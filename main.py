@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 import asyncio
 import os 
+import chainlit as cl
+
 
 # enable_verbose_stdout_logging()
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
