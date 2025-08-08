@@ -1,6 +1,5 @@
-def main():
-    print("Hello from pbl!")
+from agents import Agent ,OpenAIChatCompletionsModel,AsyncOpenAI,
+from agents.run import Runner 
+from dotenv import load_dotenv
+load_dotenv()
 
-
-if __name__ == "__main__":
-    main()
