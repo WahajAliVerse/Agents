@@ -11,3 +11,4 @@ wheels/
 # Dot env
 .env
 .env.*
+.env.local
